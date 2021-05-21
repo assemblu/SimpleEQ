@@ -460,6 +460,9 @@
     <ClCompile Include="..\..\Source\PluginEditor.cpp">
       <Filter>BasicSynth\Source</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\SynthVoice.cpp">
+      <Filter>BasicSynth\Source</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\..\..\JUCE\modules\juce_audio_basics\buffers\juce_AudioChannelSet.cpp">
       <Filter>JUCE Modules\juce_audio_basics\buffers</Filter>
     </ClCompile>
@@ -2632,6 +2635,12 @@
       <Filter>BasicSynth\Source</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\PluginEditor.h">
+      <Filter>BasicSynth\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\SynthSound.h">
+      <Filter>BasicSynth\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\SynthVoice.h">
       <Filter>BasicSynth\Source</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\..\JUCE\modules\juce_audio_basics\audio_play_head\juce_AudioPlayHead.h">
