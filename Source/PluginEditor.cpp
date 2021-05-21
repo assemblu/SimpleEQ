@@ -30,7 +30,7 @@ void BasicSynthAudioProcessorEditor::paint (juce::Graphics& g)
 
     g.setColour (juce::Colours::white);
     g.setFont (15.0f);
-    g.drawFittedText ("Greetings from polseq", getLocalBounds(), juce::Justification::centred, 1);
+    g.drawFittedText ("Made in polseq", getLocalBounds(), juce::Justification::centred, 1);
 }
 
 void BasicSynthAudioProcessorEditor::resized()
